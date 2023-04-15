@@ -1,0 +1,271 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="manifest" href="manifest.json">
+    <title>Inicio</title>
+    <meta name="theme-color" content="#ffcc00">
+    <meta name="MobileOptimized" content="width">
+    <meta name="HandhelFriendy" content="true">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black-translucet">
+    <link rel="apple-touch-icon" href="img/favicon.png">
+    <link rel="apple-touch-startup-image" href="img/favicon.png">
+    <link rel="shortcut icon" href="img/log.ico">
+    <script src="main.js"></script>
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="stylesheet" href="estilos/carrusel.css">
+    <link rel="stylesheet" href="css/estilos.css">
+    <script src="https://kit.fontawesome.com/887a835504.js" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="estilos/footer.css">
+    <script>
+        function alerta(){
+            alert("La aplicacion funciona solamente en dispositivos Android!!📱");
+        }
+    </script>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+</head>
+<body>
+    <header id="main-head"> 
+        <div class="container">
+            <div id="logo">
+                <img src="img/Cis_nuevo.png" class="ims" title="Logo">
+            </div>
+            <div id="menu">
+                <ul>
+                  
+                    <li><a href="productos.html">Productos</a></li>
+                    <li><a href="conocenos.html">Conocenos</a></li>
+                    <li><a href="#footer">Contacto</a></li>
+                </ul>
+            </div>
+        </div>
+    </header>
+    <br><br> <br>
+    <marquee behavior="alternate" style="background-color: #1F4A82; color: white; height: 25px; font-size: 18px;"><a href="https://drive.google.com/drive/folders/1ATcYEMxms9DjxqY4XDtrfYNdtXgT0Iu1?usp=share_link" download="app-debug.apk" title="Descargar!" onclick="alerta()" style="color: white;">Descarga nuestra App Click Aqui!!!📲👈 </a></marquee>
+    <div id="slider">
+        <h2></h2>
+    </div>
+    <div class="clearfix"></div>
+    <div id="servicios">
+      <div class="container">
+        <h2 class="subheader">Anuncios</h2>
+        <!--
+        <div class="servicio">
+            <center>
+            <img src="img/A1.jpg"   alt="">
+            <img src="img/A3.jpg"   alt="">
+            <img src="img/A2.jpg"   alt="">
+            <img src="img/A4.jpg"   alt="">
+            <img src="img/A5.jpg"   alt="">
+            <img src="img/A6.jpg"   alt="">
+            </center>
+        </div>
+        -->
+        <center>
+            <div class="carrousel">
+                <div class="conteCarrousel">
+                    <div class="itemCarrousel" id="itemCarrousel-1">
+                        <div class="itemCarrouselTarjeta"></div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-4">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-2">
+                        <div class="itemCarrouselTarjeta"></div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-1">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-3">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="itemCarrousel" id="itemCarrousel-3">
+                        <div class="itemCarrouselTarjeta"></div>
+                        <div class="itemCarrouselArrows">
+                            <a href="#itemCarrousel-2">
+                                <i class="fas fa-chevron-left"></i>
+                            </a>
+                            <a href="#itemCarrousel-4">
+                                <i class="fas fa-chevron-right"></i>
+                            </a>
+                        </div>
+                     </div>
+                     <div class="itemCarrousel" id="itemCarrousel-4">
+                     <div class="itemCarrouselTarjeta"></div>
+                     <div class="itemCarrouselArrows">
+                        <a href="#itemCarrousel-3">
+                            <i class="fas fa-chevron-left"></i>
+                        </a>
+                        <a href="#itemCarrousel-5">
+                            <i class="fas fa-chevron-right"></i>
+                        </a>
+                     </div>
+                     </div>
+                     <div class="itemCarrousel" id="itemCarrousel-5">
+                        <div class="itemCarrouselTarjeta"></div>
+                        <div class="itemCarrouselArrows">
+                           <a href="#itemCarrousel-4">
+                               <i class="fas fa-chevron-left"></i>
+                           </a>
+                           <a href="#itemCarrousel-6">
+                               <i class="fas fa-chevron-right"></i>
+                           </a>
+                        </div>
+                      </div>
+                      <div class="itemCarrousel" id="itemCarrousel-6">
+                        <div class="itemCarrouselTarjeta"></div>
+                        <div class="itemCarrouselArrows">
+                           <a href="#itemCarrousel-5">
+                               <i class="fas fa-chevron-left"></i>
+                           </a>
+                           <a href="#itemCarrousel-7">
+                               <i class="fas fa-chevron-right"></i>
+                           </a>
+                        </div>
+                        </div>
+                        <div class="itemCarrousel" id="itemCarrousel-7">
+                            <div class="itemCarrouselTarjeta"></div>
+                            <div class="itemCarrouselArrows">
+                               <a href="#itemCarrousel-6">
+                                   <i class="fas fa-chevron-left"></i>
+                               </a>
+                               <a href="#itemCarrousel-1">
+                                   <i class="fas fa-chevron-right"></i>
+                               </a>
+                            </div>
+                            </div>
+                            
+                <div class="conteCarrouselController">
+                    <a href="#itemCarrousel-1">•</a>
+                    <a href="#itemCarrousel-2">•</a>
+                    <a href="#itemCarrousel-3">•</a>
+                    <a href="#itemCarrousel-4">•</a>
+                    <a href="#itemCarrousel-5">•</a>
+                    <a href="#itemCarrousel-6">•</a>
+                    <a href="#itemCarrousel-7">•</a>
+                </div>
+            </div>
+            <br> <br>
+            <div class="youtube-responsive">
+                <iframe width="560" height="315" src="https://www.youtube.com/embed/wfkYsbCdomU" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" allowfullscreen></iframe>
+            </div>
+        </center>
+
+        <!--<div class="clearfix"></div>
+        <footer id="footer">
+            <div class="container">
+                <h2 class="subheader" style="font-size: 40px;">Contacto</h2>
+                <p style="font-size: 25px;">Nos ubicamos en calle Durango N. 47 Sur, entre Av. Allende y calle Abasolo, Tepic, México.</p>
+                <p style="font-size: 25px;">Teléfono: (311) 212 7460</p>
+                <p style="font-size: 25px;">Contactanos en redes sociales </p>
+                <ul id="redes">
+                    <li><a href=""><img src="img/twitter.png"></a></li>
+                    <li><a href="https://www.facebook.com/CisTepicNayarit"><img src="img/facebook.png"></a></li>
+                    <li><a href=""><img src="img/instagram.png"></a></li>
+                    <li><a href="https://www.youtube.com/@centrodeingenieriayservici3156"><img src="img/youtube.png" ></a></li>
+                </ul>
+                <div class="clearfix"></div>
+            </div>
+        </footer> -->
+        <footer id="footer">
+       
+            <div class="container-footer-all">
+             
+                 <div class="container-body">
+     
+                     <div class="colum1">
+                         <h1>Mas informacion de la compañia</h1>
+     
+                         <p> Todo lo relacionado al mundo de innovaciones de la Informática,
+                         Software y Hardware como equipos de cómputo, impresoras, portátiles, 
+                         Teléfono de casa u oficina, consumibles de todas las marcas actuales
+                         en el mercado para los equipos, instalación de redes </p>
+                         <br>
+                            <div class="map-responsive">
+                            <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d4288.614147622913!2d-104.89729704867247!3d21.50958765083854!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x842736ff7d8e3c5f%3A0x2277cce341a981bf!2sCentro%20de%20Ingenieria%20y%20Servicio!5e0!3m2!1ses!2smx!4v1678135239409!5m2!1ses!2smx" width="350" height="250" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                            </div>
+                        </div>
+                     
+                     <div class="colum2">
+     
+                         <h1>Redes Sociales</h1>
+     
+                         <div class="row">
+                             <a href="https://www.facebook.com/CisTepicNayarit"><img src="icon/facebook.png"></a>
+                             <label><a href="https://www.facebook.com/CisTepicNayarit" style="color: white;">Siguenos en Facebook</a></label>
+                         </div>
+                         <div class="row">
+                             <a href="#"><img src="icon/twitter.png"></a>
+                             <label><a href="#" style="color: white;">Siguenos en Twitter</a></label>
+                         </div>
+                         <div class="row">
+                             <a href="https://www.instagram.com/cis_tepic/"><img src="icon/instagram.png"></a>
+                             <label><a href="https://www.instagram.com/cis_tepic/" style="color: white;">Siguenos en Instagram</a></label>
+                         </div>
+                         <div class="row">
+                            <a href="https://www.youtube.com/@centrodeingenieriayservici3156"><img src="icon/youtube.png"></a>
+                            <label><a href="https://www.youtube.com/@centrodeingenieriayservici3156" style="color: white;">Siguenos en Youtube</a></label>
+                        </div>
+     
+     
+                     </div>
+     
+                     <div class="colum3">
+     
+                         <h1>Informacion Contactos</h1>
+     
+                         <div class="row2">
+                             <img src="icon/house.png">
+                             <label style="text-align: left;">Calle Durango N.47 Sur,
+                             entre Av. Allende y calle Abasolo,
+                             Tepic, México.</label>
+                         </div>
+     
+                         <div class="row2">
+                             <img src="icon/smartphone.png">
+                             <label style="font-size: 17px; text-align: justify;">(311)-212-7460</label>
+                         </div>
+
+                         <div class="row2">
+                            <img src="img/whatsapp.png">
+                            <label style="font-size: 17px; text-align: justify;">(311)-149-1847</label>
+                        </div>
+     
+                         <div class="row2">
+                             <img src="icon/contact.png">
+                              <label>cistepic2@gmail.com</label>
+                         </div>
+     
+                     </div>
+     
+                 </div>
+             
+             </div>
+             
+             <div class="container-footer">
+                    <div class="footer">
+                         <div class="copyright">
+                             © 2023 Todos los Derechos Reservados | <a href="">CIS</a>
+                         </div>
+     
+                         <div class="information">
+                             <a href="conocenos.html">Informacion Compañia</a> | 
+                         </div>
+                     </div>
+     
+                 </div>
+             
+         </footer>
+        
+</body>
+</html>
